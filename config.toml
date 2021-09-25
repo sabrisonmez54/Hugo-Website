@@ -4,6 +4,32 @@ languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[author]
+  name = "Sabri Umut Sönmez"
+
+[blackfriday]
+  hrefTargetBlank = true
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -24,6 +50,13 @@ paginate     = 10
   keywords = "homepage, blog"
   images = ["/img/avatar.svg"]
   image = "/img/avatar.svg"
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true
 
 [taxonomies]
   tag      = "tags"
@@ -54,7 +87,17 @@ paginate     = 10
     [[params.social]]
         name = "email"
         url = "mailto:ssonmez@tripshot.com?subject=Hi"
-    
+    [params.footer]
+    trademark = true
+    rss = false
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -73,3 +116,4 @@ paginate     = 10
     identifier = "resume"
     name       = "Resume"
     url        = "https://represent.io/sabrisonmez"
+ 
