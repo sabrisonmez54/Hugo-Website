@@ -2,27 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/tags/ios/</loc>
-    <lastmod>2021-06-14T15:24:02-04:00</lastmod>
+    <loc>hugo-website-dfc31.web.app/categories/</loc>
   </url><url>
-    <loc>localhost/projects/my-project/</loc>
-    <lastmod>2021-06-14T15:24:02-04:00</lastmod>
+    <loc>hugo-website-dfc31.web.app/</loc>
   </url><url>
-    <loc>localhost/projects/</loc>
-    <lastmod>2021-06-14T15:24:02-04:00</lastmod>
-  </url><url>
-    <loc>localhost/</loc>
-    <lastmod>2021-06-14T15:24:02-04:00</lastmod>
-  </url><url>
-    <loc>localhost/tags/swift/</loc>
-    <lastmod>2021-06-14T15:24:02-04:00</lastmod>
-  </url><url>
-    <loc>localhost/tags/</loc>
-    <lastmod>2021-06-14T15:24:02-04:00</lastmod>
-  </url><url>
-    <loc>localhost/tags/xcode/</loc>
-    <lastmod>2021-06-14T15:24:02-04:00</lastmod>
-  </url><url>
-    <loc>localhost/categories/</loc>
+    <loc>hugo-website-dfc31.web.app/tags/</loc>
   </url>
 </urlset>

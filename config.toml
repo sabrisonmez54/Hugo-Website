@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "hugo-website-dfc31.web.app"
 title        = "SabriUmut.com"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
